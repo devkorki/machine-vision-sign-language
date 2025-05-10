@@ -91,25 +91,7 @@ scikit-learn
 
 ---
 
-## Data Augmentation
-To improve generalization, use real-time data augmentation in `CNN_Model.py` or `image_cnn_from_png.py`:
 
-```python
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-
-datagen = ImageDataGenerator(
-    rotation_range=10,
-    zoom_range=0.1,
-    width_shift_range=0.1,
-    height_shift_range=0.1,
-    shear_range=0.15
-)
-datagen.fit(X_train)
-
-model.fit(datagen.flow(X_train, Y_train, batch_size=128), ...)
-```
-
----
 
 ## License
 This project is intended for academic and educational use. Please cite the original [Kaggle dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist) if used in research.
