@@ -23,3 +23,10 @@ sign_mnist_test.csv
 # Auto-generated image folders
 custom_dataset/
 enhanced_processed_letters/
+
+
+# More auto-generated / local folders to ignore
+labeled_letters/
+processed_letters/
+processed_letters_output/
+myenv/
