@@ -1,0 +1,32 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model files
+*.h5
+*.keras
+
+# Dataset files (if already on Kaggle or too large)
+sign_mnist_train.csv
+sign_mnist_test.csv
+
+# IDE/project files
+.vscode/
+.idea/
+
+
+# Auto-generated image folders
+custom_dataset/
+enhanced_processed_letters/
+
+
+# More auto-generated / local folders to ignore
+labeled_letters/
+processed_letters/
+processed_letters_output/
+myenv/
